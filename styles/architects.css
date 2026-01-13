@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+
+/*1 shared styles */
+/* jekane jekane flex krbo eta common hisebe sbkane attach kre dbo html e */
+.display-flex
+{
+display: flex;
+}
+.text-grey
+{
+    color: #424242;
+}
+.text-light-grey
+{
+    color: #727272;
+   
+}
+/* header er background color */
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.button-primary{
+   
+   color:#FFFFFF; 
+   background-color: #FF900E;
+   padding: 15px 20px;
+   font-size: 1.25rem;
+   font-weight: 400;
+   border-radius: 8px;
+   border: none;
+}
+/*2 header styles */
+
+
+/*3 navbar related styles */
+.navbar{
+   justify-content: space-between;
+   align-items: center;
+}
+
+  .brand{
+    font-weight: 700px;
+    font-size: 3rem;
+  }
+
+.nav-item{
+    /* fota fota gula vanish krte none */
+list-style: none;
+/* flex er links gula space korte */
+margin-right: 30px;
+}
+
+.nav-links{
+    /* header er link er nicher line vanish krte */
+    text-decoration: none;
+}
+  .navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+
+  /* banner related styles */
+
+  .banner-content{
+    /* center borabor ante */
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+.banner-image{
+    max-width: 100%;
+}
+@media screen and (max-width:576px ){
+.navbar ,.nav-links{
+    flex-direction: column;
+}
+
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
