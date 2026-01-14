@@ -206,7 +206,16 @@ width: 100%;
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+.sponsor-sub-title{
+    margin-bottom: 100px;
+}
 
+/* footer style */
+.footer-part{
+    max-width: 1900px;
+    margin: 150px ;
+    text-align: center;
+}
 
 /* responsive media query */
 /* small devices */
